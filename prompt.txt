@@ -1,0 +1,45 @@
+PROJECT TITLE:
+2D Graphics Editor using C
+
+PROBLEM STATEMENT:
+
+Design and implement a menu-driven 2D Graphics Editor in C using a two-dimensional character array as the drawing canvas.
+
+The program should allow users to create and display basic geometric shapes using coordinate-based input. The editor must provide options to draw lines, rectangles, circles, and triangles on the canvas. The drawing area should be represented using ASCII characters and displayed in the console.
+
+FUNCTIONAL REQUIREMENTS:
+
+1. Draw a Line
+   - Accept starting and ending coordinates.
+   - Support horizontal, vertical, and diagonal lines.
+
+2. Draw a Rectangle
+   - Accept coordinates of the top-left and bottom-right corners.
+   - Display the rectangle on the canvas.
+
+3. Draw a Circle
+   - Accept center coordinates and radius.
+   - Draw the circle using an appropriate circle drawing algorithm.
+
+4. Draw a Triangle
+   - Accept coordinates of three vertices.
+   - Connect the vertices using line segments.
+
+5. Display Picture
+   - Show the current contents of the canvas.
+
+6. Exit
+   - Terminate the application.
+
+TECHNICAL REQUIREMENTS:
+
+- Use the C programming language.
+- Use a 2D character array to represent the canvas.
+- Implement modular functions for each drawing operation.
+- Use Bresenham's Line Drawing Algorithm for line rendering.
+- Use the Midpoint Circle Drawing Algorithm for circle rendering.
+- Ensure all drawing operations remain within canvas boundaries.
+
+EXPECTED OUTPUT:
+
+A console-based graphics editor capable of drawing and displaying geometric shapes on an ASCII canvas through a menu-driven interface.
